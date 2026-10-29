@@ -1,0 +1,30 @@
+{
+  "name": "spicy-avenue-kitchen",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "vite --host",
+    "server": "node server/index.js",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "test": "node --test test/parse.test.js test/service.test.js",
+    "menu:snapshot": "node scripts/snapshot.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/source-sans-3": "^5.1.0",
+    "motion": "^11.18.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@fontsource/libre-baskerville": "^5.1.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  },
+  "engines": {
+    "node": ">=20.12"
+  }
+}
